@@ -1,0 +1,82 @@
+@keyframes anim {
+  from {
+    margin-left: -350px;
+  }
+  to {
+    margin-left: 0px;
+  }
+}
+
+.anim {
+  animation-name: anim;
+  animation-duration: 1s;
+  z-index: 10;
+}
+
+.gallery_body {
+  animation: bow 10s infinite;
+}
+
+@keyframes bow {
+  0% {
+    background-image: url(./img/img/5.jpeg);
+    background-repeat: no-repeat;
+    z-index: -3;
+  }
+  30% {
+    background-image: url(./img/img/1.jpeg);
+    background-repeat: no-repeat;
+    z-index: -3;
+  }
+  50% {
+    background-image: url(./img/img/2.jpeg);
+    background-repeat: no-repeat;
+    z-index: -3;
+  }
+  75% {
+    background-image: url(./img/img/3.jpeg);
+    background-repeat: no-repeat;
+  }
+  100% {
+    background-image: url(./img/img/4.jpeg);
+    background-repeat: no-repeat;
+    z-index: -3;
+  }
+}
+/*
+@keyframes turning {
+	0% {
+		border-radius: 50% 50% 50% 50%;
+		transform: rotate(0deg);
+	}
+	45% {
+		border-radius: 0% 0 0 60%;
+		transform: rotate(45deg);
+	}
+	50% {
+		border-radius: 0 0% 50% 50%;
+		transform: rotate(90deg);
+	}
+	75% {
+		border-radius: 50% 0% 50% 0;
+		transform: rotate(135deg);
+	}
+	100% {
+		border-radius: 50% 50% 50% 50%;
+		transform: rotate(360deg);
+	}
+}
+
+.turning {
+	animation: turning 2s   alternate;
+  animation-duration: 2s;
+   
+ 
+   
+   
+}
+div:hover {
+	animation-play-state: paused;
+}
+
+*/
